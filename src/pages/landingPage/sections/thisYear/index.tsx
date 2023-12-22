@@ -1,7 +1,6 @@
 import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
 import thisyearImg from '../../../../assets/pictures/chainy.png';
-import { Zoom } from "react-swift-reveal";
 
 const ThisYear = () => {
   return (

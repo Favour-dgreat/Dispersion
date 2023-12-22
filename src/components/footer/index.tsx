@@ -1,13 +1,6 @@
 import styles from "./footer.module.css";
 import logo from "../../assets/footer/$DPS.png";
-import footer from "../../assets/footer/Footer.png";
 import { Link } from "react-router-dom";
-import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkednIcon,
-  TwitterIcon,
-} from "./FooterIcons";
 
 function Footer() {
   return (
