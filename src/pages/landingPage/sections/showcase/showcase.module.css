@@ -1,0 +1,111 @@
+.showcase_container {
+  min-height: 100vh;
+  background-image: url('../../../../assets/pictures/hero.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase_inner{
+  padding-left: 60px;
+  padding-top: 15%;
+  max-width: 550px;
+
+}
+.showcase_span{
+  color: white;
+  font-size: 91.27px;
+  font-family: montserrat;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+.showcase_span3{
+  background: linear-gradient(95deg, rgba(216, 208, 21, 0.06) -1.3%, #FDF42D 26.06%, #0804DB 96.26%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 91.27px;
+  font-family: montserrat;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+.showcase_span2{
+  background: -webkit-linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  font-size: 91.27px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: montserrat;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+.showcase_span4{
+color: #B143E3;
+ font-size: 29;
+ font-family: 'Montserrat';
+ font-weight: '500';
+ text-transform: 'uppercase';
+ text-transform: uppercase;
+}
+.showcase_vector{
+  width: 35% !important;
+  height: 35% !important;
+  margin-left: 400px;
+}
+.button{
+  display: flex;
+}
+.showcase_link{
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+
+}
+.showcase_icon{
+  width: 100% !important;
+  line-height: 30px;
+}
+
+/* .showcase_button::after {
+  content: attr(title);
+  font-size: 16px;
+  background: linear-gradient(to left, #00FFA3, #DC1FFF);
+ 
+}
+
+
+.showcase_button::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 4px;
+  z-index: -1;
+  background-color: #ffff;
+} */
+
+.showcase_button{
+  margin-top: 20px;
+  height: 40px;
+  padding: 0px 29px 0px 29px;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.showcase_button:hover{
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  
+}
+
