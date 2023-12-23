@@ -1,5 +1,5 @@
 import styles from './story.module.css';
-import storyImg from '../../../../assets/pictures/vision.png';
+import storyImg from '../../../../assets/pictures/Vision.png';
 // import storyImgLarge from '../../../../assets/pictures/story2.png';
 // import aboutImgLarge from '../../../../assets/pictures/logoish.png';
 import Image from '../../../../components/images';
