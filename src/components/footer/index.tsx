@@ -8,6 +8,7 @@ import {
   TwitterIcon,
 } from "./FooterIcons";
 import { RegularButton } from "../buttons";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Footer() {
   return (
@@ -28,10 +29,26 @@ function Footer() {
             className={`${styles.footer_inner_middle} ${styles.footer_res_removal}`}
           >
            <div  style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'inline-flex'}}>
-<div className={styles.footer_tt1} style={{textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '500',  wordWrap: 'break-word'}}>Vision</div>
-<div className={styles.footer_tt2} style={{textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '500',  wordWrap: 'break-word'}}>Features</div>
-<div className={styles.footer_tt3} style={{textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '500',  wordWrap: 'break-word'}}>Tokenomics</div>
+<div className={styles.footer_tt1} style={{textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '500',  wordWrap: 'break-word'}}><AnchorLink href='#story' style={{textDecoration: 'none', color:'white'}}>
+
+Vision
+</AnchorLink>
 </div>
+<div className={styles.footer_tt2} style={{textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '500',  wordWrap: 'break-word'}}> <AnchorLink href='#features' style={{textDecoration: 'none', color:'white'}}>
+
+Features
+</AnchorLink></div>
+<div className={styles.footer_tt3} style={{textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '500',  wordWrap: 'break-word'}}> <AnchorLink  href='#tokenomics' style={{textDecoration: 'none', color:'white'}}>
+
+Tokenomics
+</AnchorLink></div>
+</div>
+
+
+
+
+
+ 
           </div>
           <div className={styles.footer_inner_right}>
             <div

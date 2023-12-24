@@ -79,12 +79,8 @@ function Navbar() {
 
   Vision
 </AnchorLink>
-{/* <Link
-  target="__blank"
-  to="#"
->
-  Vision
-</Link> */}
+
+
  <AnchorLink href='#features' style={{textDecoration: 'none'}}>
 
   Features
