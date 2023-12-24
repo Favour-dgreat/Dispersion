@@ -6,7 +6,7 @@
   background-position: center;
   z-index: -1; 
   padding-top: 20%;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
   text-align: center;
 }
 .tokenomics{
@@ -35,6 +35,12 @@ justify-content: center;
 .thisyear_image {
   margin-top: -28%;
   float: right;
+ 
+}
+.thisyear_image2 {
+  max-width: 30%;
+  margin-top: -13%;
+  left: 15%;
  
 }
 

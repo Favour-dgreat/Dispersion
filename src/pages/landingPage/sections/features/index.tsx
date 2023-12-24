@@ -1,6 +1,4 @@
 import styles from './thisyear.module.css';
-import Image from '../../../../components/images';
-import thisfeatureImg from '../../../../assets/pictures/Featuresmain.png';
 // import thisfeature3Img from '../../../../assets/pictures/Feature3.png';
 // import thisfeature2Img from '../../../../assets/pictures/Features2.png';
 // import thisfeature3Img from '../../../../assets/pictures/Features 3.png';

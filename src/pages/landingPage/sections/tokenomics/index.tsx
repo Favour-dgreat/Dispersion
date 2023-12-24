@@ -1,7 +1,8 @@
 import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
-import thisyearImg from '../../../../assets/pictures/ellipse.png';
+// import thisyearImg from '../../../../assets/pictures/ellipse.png';
 import thisyearImg1 from '../../../../assets/pictures/shape.png';
+import thisyearImg2 from '../../../../assets/icons/Ellipse.png';
 
 const ThisYear = () => {
   return (
@@ -65,6 +66,13 @@ const ThisYear = () => {
         </div>
     </div>
 </div>
+<Image
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="center-bottom"
+           src={thisyearImg2}
+           className={styles.thisyear_image2}
+          />
     {/* <div style={{width: 543, height: 315, paddingBottom: 49, paddingLeft: 70, paddingRight: 70, left: 69, top: 116, position: 'absolute', background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
         <div style={{ paddingBottom: 14.68, paddingLeft: 135, paddingRight: 134, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
             <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
