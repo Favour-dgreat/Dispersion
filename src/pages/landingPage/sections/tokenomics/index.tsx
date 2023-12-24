@@ -19,7 +19,7 @@ const ThisYear = () => {
     <div className={styles.thisyear_tokenomics} style={{left: 495, position: 'absolute', color: '#0DE0F3', fontSize: 48, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word', marginTop: -80}}>Tokenomics</div>
     
     <div className={styles.tokenomics}>
-    <div style={{ width: '38%', height: '100%', maxWidth: '80%', paddingTop: 49,paddingBottom: 49, paddingLeft: 20, paddingRight: 20, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+    <div id='div1' className={styles.animatedDiv} style={{ width: '38%', height: '100%', maxWidth: '80%', paddingTop: 49,paddingBottom: 49, paddingLeft: 20, paddingRight: 20, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
     {/* <div style={{ paddingBottom: 14.68, paddingLeft: 135, paddingRight: 134, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}> */}
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'white', fontSize: 38.98, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Total  Supply</div>
@@ -35,7 +35,7 @@ const ThisYear = () => {
         </div>
     </div>
 
-    <div style={{width: '38%', height: '100%', marginLeft: '5%',  paddingTop: 49,paddingBottom: 80, paddingLeft: 70, paddingRight: 70, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 50, display: 'inline-flex'}}>
+    <div id='div2' className={styles.animatedDiv} style={{width: '38%', height: '100%', marginLeft: '5%',  paddingTop: 49,paddingBottom: 80, paddingLeft: 70, paddingRight: 70, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 50, display: 'inline-flex'}}>
     <div style={{paddingLeft: 135, paddingRight: 164, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 0, display: 'inline-flex'}}>
             <div style={{color: 'white', fontSize: 38.98, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Initial LP: 2 ETH </div>
@@ -52,7 +52,7 @@ const ThisYear = () => {
     </div>
     </div>
 
-    <div style={{width: '40%', height: '100%', marginTop: '-2%', paddingTop: 49,paddingBottom: 80, paddingLeft: 70, paddingRight: 70, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+    <div id='div3' className={styles.animatedDiv2} style={{width: '40%', height: '100%', marginTop: '-2%', paddingTop: 49,paddingBottom: 80, paddingLeft: 70, paddingRight: 70, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
     {/* <div style={{ paddingBottom: 14.68, paddingLeft: 135, paddingRight: 134, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}> */}
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'white', fontSize: 38.98, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Tax: 5% on buy/sell</div>

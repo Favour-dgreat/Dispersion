@@ -34,8 +34,13 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  transition: transform 0.3s ease-in-out;
 }
 
+.thisyear_inner:hover{
+  transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+
+}
 .thisyear_images{
   height: 100vh;
   display: flex;

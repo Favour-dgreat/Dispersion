@@ -8,7 +8,9 @@
   padding-bottom: 10%;
 
 }
-
+.animatedDiv:hover {
+  transform: translateX(-25px); /* Adjust the value for your desired movement */
+}
 .thisyear_inner {
   height: 100vh;
 }

@@ -9,6 +9,35 @@
   padding-bottom: 20%;
   text-align: center;
 }
+/* YourStyles.module.css */
+
+.animatedDiv {
+  width: '38%';
+  height: 100%;
+  paddingTop: 49;
+  paddingBottom: 49;
+  paddingLeft: 20;
+  paddingRight: 20;
+  background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+  border-radius: 10;
+  border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  display: inline-flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animatedDiv:hover {
+  transform: translateX(-25px); /* Adjust the value for your desired movement */
+}
+
+.animatedDiv2:hover {
+  transform: translateY(35px);
+
+}
+
 .tokenomics{
 margin-left: 10%;
 margin: 0 auto;  

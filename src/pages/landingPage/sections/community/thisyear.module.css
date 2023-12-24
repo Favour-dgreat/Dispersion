@@ -19,6 +19,22 @@
   gap: 60px;
   justify-content: center;
 }
+.popoutDiv1 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.popoutDiv1:hover {
+  transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+}
+
+.popoutDiv2 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.popoutDiv2:hover {
+  transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+}
+
 .thisyear_inner {
   display: flex;
   align-items: center;
