@@ -167,3 +167,40 @@
     margin-top: 15px;
   }
 }
+
+
+/* styles.module.css */
+
+.thisyear_container {
+  /* Add any styles for the container if needed */
+}
+
+.thisyear_inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.thisyear_image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out; /* Smooth transition on hover */
+
+  /* Add other image styles if needed */
+
+}
+
+.thisyear_inner:hover .thisyear_image {
+  animation: pulse 2s infinite; /* 2s pulse animation, repeat infinitely */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

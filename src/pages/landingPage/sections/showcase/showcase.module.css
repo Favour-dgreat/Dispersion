@@ -48,10 +48,29 @@ color: #B143E3;
  text-transform: 'uppercase';
  text-transform: uppercase;
 }
+
+.showcase_span4:hover{
+  color: #ffff;
+}
 .showcase_vector{
   width: 35% !important;
   height: 35% !important;
   margin-left: 400px;
+}
+.showcase_link {
+  
+  /* Add styles for the "Learn More" link */
+  text-decoration: none;
+  color: #000; /* Set the desired text color */
+}
+
+.showcase_link:hover {
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-decoration: underline;
+  /* Add any additional styles for hover state if needed */
 }
 .button{
   display: flex;
@@ -94,18 +113,42 @@ color: #B143E3;
   z-index: -1;
   background-color: #ffff;
 } */
+/* styles.module.css */
 
-.showcase_button{
+.showcase_button {
+  position: relative;
   margin-top: 20px;
   height: 40px;
   padding: 0px 29px 0px 29px;
   align-items: center;
   text-decoration: none;
   list-style: none;
+  background: white;
+  font-size: 18px;
 }
+
+.showcase_button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(white, white);
+  mask-image: linear-gradient(white, white);
+}
+
+
 
 .showcase_button:hover{
   background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
-  
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 18px;
+  text-decoration: underline;
+
 }
 

@@ -1,12 +1,17 @@
 .thisyear_container {
   height: 100vh;
-  background-image: url('../../../../assets/pictures/Rectangle.png');  
+  background-image: url('../../../../assets/pictures/cmbg.png');  
   z-index: 1; 
   margin-top: -30px;
   background-color: #151616;
   background-size: cover;
   text-align: center;
 }
+/* .thriving{
+  background: -webkit-linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 .contents{
   margin-top: 50px;
   text-align: center;
@@ -15,7 +20,6 @@
   justify-content: center;
 }
 .thisyear_inner {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;

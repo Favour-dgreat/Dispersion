@@ -16,9 +16,11 @@
 .navbar_button{
   background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
   width: 180px;
+  color: white;
 }
 .navbar_button:hover{
-  color: #fff;
+  color: #512555;
+  text-decoration: underline;
 }
 .navbar_ul {
   display: flex;

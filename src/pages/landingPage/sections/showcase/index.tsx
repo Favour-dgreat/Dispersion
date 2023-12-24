@@ -1,6 +1,9 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Icon from '../../../../assets/icons/Vector 4.png';
 import { RegularButton } from '../../../../components/buttons';
 import styles from "./showcase.module.css";
+
+
 function Showcase() {
   return (
     <div className={styles.showcase_container}>
@@ -23,9 +26,11 @@ function Showcase() {
      <RegularButton
               title="Launch dApp"
               className={styles.showcase_button}
-              url="https://bit.ly/devfestado23"
+              url="#"
             />
+            <AnchorLink href='#story' style={{textDecoration: 'none'}}>
         <a className={styles.showcase_link}>Learn More</a>
+        </AnchorLink>
      </div>
      
       </div>

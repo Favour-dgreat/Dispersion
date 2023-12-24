@@ -2,41 +2,24 @@
   height: 100%;
   background-image: url('../../../../assets/pictures/bggg.png');  
   z-index: 1; 
-  margin-top: -30px;
   background-color: #151616;
   background-size: contain;
-}
-.thisyear_text{
-  padding-bottom: 20%;
-}
-.thisyear_inner {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
+  padding-bottom: 10%;
+  padding-bottom: 10%;
+
 }
 
-.thisyear_images{
+.thisyear_inner {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
 }
+
 .thisyear_image1{
   display: flex;
   justify-content: center;
   width: 70%;
   margin: 0 auto;
- padding-top: 30%;
 }
-.thisyear_image2{
-  width: 50%;
-  margin: 0 auto;
-}
+
 .thisyear_image3{
   width: 70%;
   margin: 0 auto;

@@ -4,6 +4,7 @@ import styles from "./navbar.module.css";
 import { RegularButton } from "../buttons";
 import hamburger from "../../assets/header/hamburger.svg";
 import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const openNav = () => {
@@ -21,22 +22,33 @@ function Navbar() {
           <img src={logo} alt="dispersion swap" />
           <div className={styles.navbar_ul}>
             <Link to="/">Home</Link>
-            <Link
+
+            <AnchorLink href='#story' style={{textDecoration: 'none'}}>
+
+              Vision
+          </AnchorLink>
+            {/* <Link
               target="__blank"
-              to="http://bit.ly/devfestado23sponsorshipdeck"
+              to="#"
             >
               Vision
-            </Link>
-            <Link to="https://bit.ly/devfestado23callforpartners">
-              Roadmap
-            </Link>
-            <Link to="https://shop.devfestadoekiti.com/">Tokenomics</Link>
+            </Link> */}
+             <AnchorLink href='#features' style={{textDecoration: 'none'}}>
+
+              Features
+              </AnchorLink>
+
+              <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
+
+              Tokenomics
+              </AnchorLink>
+            
           </div>
           <div>
             <RegularButton
               title="Connect Wallet"
               className={styles.navbar_button}
-              url="https://bit.ly/devfestado23"
+              url="#"
             />
             <img
               src={hamburger}
@@ -62,20 +74,31 @@ function Navbar() {
             &times;
           </a>
           <Link to="/">Home</Link>
-            <Link
-              target="__blank"
-              to="http://bit.ly/devfestado23sponsorshipdeck"
-            >
-              Vision
-            </Link>
-            <Link to="https://bit.ly/devfestado23callforpartners">
-              Roadmap
-            </Link>
-            <Link to="https://shop.devfestadoekiti.com/">Tokenomics</Link>
+
+<AnchorLink href='#story' style={{textDecoration: 'none'}}>
+
+  Vision
+</AnchorLink>
+{/* <Link
+  target="__blank"
+  to="#"
+>
+  Vision
+</Link> */}
+ <AnchorLink href='#features' style={{textDecoration: 'none'}}>
+
+  Features
+  </AnchorLink>
+
+  <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
+
+  Tokenomics
+  </AnchorLink>
+            <Link to="#">Tokenomics</Link>
           <RegularButton
             title="Connect Wallet"
             className={styles.sidebar_button}
-            url="https://bit.ly/devfestado23"
+            url="#"
           />
         </div>
       </div>
