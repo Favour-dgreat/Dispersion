@@ -90,7 +90,6 @@ function Navbar() {
 
   Tokenomics
   </AnchorLink>
-            <Link to="#">Tokenomics</Link>
           <RegularButton
             title="Connect Wallet"
             className={styles.sidebar_button}

@@ -3,9 +3,3 @@
   position: absolute;
 }
 
-@media screen and (max-width: 600px) {
-  .image {
-    border: 3px solid var(--darkblue);
-    border-radius: 1px;
-  }
-}

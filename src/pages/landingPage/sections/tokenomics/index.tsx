@@ -3,6 +3,9 @@ import Image from '../../../../components/images';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';
 import thisyearImg1 from '../../../../assets/pictures/shape.png';
 import thisyearImg2 from '../../../../assets/icons/Ellipse.png';
+import thisyearImg3 from '../../../../assets/icons/Rectangle28.png';
+import thisyearImg4 from '../../../../assets/icons/Rectangle29.png';
+
 
 const ThisYear = () => {
   return (
@@ -16,10 +19,10 @@ const ThisYear = () => {
             />
     
     {/* <div style={{left: 488,  position: 'absolute'}} /> */}
-    <div className={styles.thisyear_tokenomics} style={{left: 495, position: 'absolute', color: '#0DE0F3', fontSize: 48, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word', marginTop: -80}}>Tokenomics</div>
+    <div className={styles.thisyear_tokenomics}>Tokenomics</div>
     
     <div className={styles.tokenomics}>
-    <div id='div1' className={styles.animatedDiv} style={{ width: '38%', height: '100%', maxWidth: '80%', paddingTop: 49,paddingBottom: 49, paddingLeft: 20, paddingRight: 20, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+    <div id='div1' className={styles.animatedDiv} >
     {/* <div style={{ paddingBottom: 14.68, paddingLeft: 135, paddingRight: 134, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}> */}
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'white', fontSize: 38.98, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Total  Supply</div>
@@ -35,7 +38,12 @@ const ThisYear = () => {
         </div>
     </div>
 
-    <div id='div2' className={styles.animatedDiv} style={{width: '38%', height: '100%', marginLeft: '5%',  paddingTop: 49,paddingBottom: 80, paddingLeft: 70, paddingRight: 70, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 50, display: 'inline-flex'}}>
+    <img
+              src={thisyearImg3}
+              className={styles.thisyear_image3}
+              alt="menu"
+            />
+    <div id='div2' className={styles.animatedDiv1} >
     <div style={{paddingLeft: 135, paddingRight: 164, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 0, display: 'inline-flex'}}>
             <div style={{color: 'white', fontSize: 38.98, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Initial LP: 2 ETH </div>
@@ -51,8 +59,12 @@ const ThisYear = () => {
         </div>
     </div>
     </div>
-
-    <div id='div3' className={styles.animatedDiv2} style={{width: '40%', height: '100%', marginTop: '-2%', paddingTop: 49,paddingBottom: 80, paddingLeft: 70, paddingRight: 70, background: 'linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%)', borderRadius: 10, border: '1px rgba(216.88, 227.60, 229.37, 0.20) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+    <img
+              src={thisyearImg4}
+              className={styles.thisyear_image4}
+              alt="menu"
+            />
+    <div id='div3' className={styles.animatedDiv2} >
     {/* <div style={{ paddingBottom: 14.68, paddingLeft: 135, paddingRight: 134, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}> */}
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'white', fontSize: 38.98, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Tax: 5% on buy/sell</div>
