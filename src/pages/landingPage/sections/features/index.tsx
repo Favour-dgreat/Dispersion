@@ -1,6 +1,6 @@
 import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
-// import thisfeature2Img from '../../../../assets/pictures/Features2.png';
+import thisfeature2Img from '../../../../assets/icons/Group 77.png';
 // import thisfeature3Img from '../../../../assets/pictures/Features 3.png';
 
 const ThisYear = () => {
@@ -11,36 +11,21 @@ const ThisYear = () => {
             data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-anchor-placement="center-bottom"
-            src={thisyearImg1}
+            src={thisfeature2Img}
             className={styles.story_item_image3}
             style={{ flexShrink: 0, height: '100%', width: 'auto', }}
           />
       <div id="story" className={styles.story_container}>
      
       <div className={styles.story_inner}>
-      <div className={styles.card}>
-        <div className={styles.icon}>
-        <Icon.ArrowUpSquareFill color="#000" size={56} className={styles.gi}/>
-        </div>
-        <p className={styles.tt}>Total Supply</p>
-        <p className={styles.tt}>10,000</p>
+      <div className={styles.vertical_line}></div>
+      <div className={styles.content}>
+      Stake your $SPADES and enjoy the rewards coming from your NFTs, depending on your NFT rarity and attributes your rewards are calculated on a daily basis based on the total stake and the number of stakers.
+      </div>
 
-        </div>
-<div className={styles.card}>
+    <div className={styles.card}>
         <div className={styles.icon}>
 
-        <Icon.CartCheckFill color="#000" size={56} className={styles.gi}/>
-        </div>
-        <p className={styles.tt}>Sell Tax</p>
-        <p className={styles.tt}>0</p>
-
-
-
-</div>
-<div className={styles.card}>
-        <div className={styles.icon}>
-
-        <Icon.CartPlusFill color="#000" size={56} className={styles.gi}/>
         </div>
         <p className={styles.tt}>Buy Tax</p>
         <p className={styles.tt}>0</p>
