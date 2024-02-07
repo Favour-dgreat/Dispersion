@@ -1,5 +1,5 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Icon from '../../../../assets/icons/Vector 4.png';
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
+// import Icon from '../../../../assets/icons/Vector 4.png';
 import thisyearImg from '../../../../assets/pictures/light.png';
 import Image from '../../../../components/images';
 

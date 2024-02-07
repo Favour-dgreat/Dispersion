@@ -1,5 +1,5 @@
 import styles from './story.module.css';
-import storyImg from '../../../../assets/pictures/logoish.png';
+// import storyImg from '../../../../assets/pictures/logoish.png';
 import storyImgIcon from '../../../../assets/icons/Ellipse 1.png';
 import storyImgIcon2 from '../../../../assets/icons/vector.png';
 

@@ -2,12 +2,12 @@ import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';
 import thisyearImg1 from '../../../../assets/icons/roadmap.png';
-import thisyearImg2 from '../../../../assets/icons/Ellipse.png';
-import thisyearImg3 from '../../../../assets/icons/Rectangle28.png';
-import thisyearImg4 from '../../../../assets/icons/Rectangle29.png';
-import ReactDOM from 'react-dom'
+// import thisyearImg2 from '../../../../assets/icons/Ellipse.png';
+// import thisyearImg3 from '../../../../assets/icons/Rectangle28.png';
+// import thisyearImg4 from '../../../../assets/icons/Rectangle29.png';
+// import ReactDOM from 'react-dom'
 import * as Icon from 'react-bootstrap-icons';
-import { ArrowUp } from 'react-bootstrap-icons';
+// import { ArrowUp } from 'react-bootstrap-icons';
 
 
 const ThisYear = () => {
