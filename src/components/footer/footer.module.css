@@ -32,7 +32,19 @@
 font-size: 20px;
 font-weight: 400;
 text-align: center;
+}
 
+.showcase_button:hover{
+  background-color: #000;
+  color: white;
+  
+ 
+  border-radius: 30px; /* Set border radius to 30px */
+  height: 40px;
+  font-family: ABeeZee;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
 }
 .footer_buttons {
   display: flex;
