@@ -15,7 +15,7 @@ function Showcase() {
       <span className={styles.showcase_span}>Spades Finance </span>
     
       <div className={styles.showcase_icon}>
-      <span className={styles.showcase_span4}>A DeFi project that adopts the  innovative <span>ERC 404 </span> standard on <br/> Ethereum.</span>
+      <p className={styles.showcase_span4}>A DeFi project that adopts the  innovative <span>ERC 404 </span> standard on  Ethereum.</p>
       </div>
 
      <div className={styles.button}>  

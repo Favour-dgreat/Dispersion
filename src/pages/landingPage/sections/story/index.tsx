@@ -48,7 +48,7 @@ function Story() {
     </div>
   </div>
 
-  <div className={styles.cardContainer2} style={{ paddingTop: '20vh'  }}>
+  <div className={styles.cardContainer2} style={{ paddingTop: '20vh'}}>
   <Image
           data-aos="fade-up"
           data-aos-duration="2000"

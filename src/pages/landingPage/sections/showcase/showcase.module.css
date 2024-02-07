@@ -39,11 +39,11 @@
  color: #fff;
  font-size: 25px;
  font-family: Abhaya Libre ExtraBold;
- font-weight: 400;
- max-width: 300px;
+ font-weight: 400px;
+ max-width: 400px;
  word-wrap: break-word;
- line-height: 39.55px;
- word-spacing: 10px;
+ line-height: 29.55px;
+ word-spacing: 2px;
  
 }
 

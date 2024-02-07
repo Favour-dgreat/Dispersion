@@ -42,10 +42,7 @@ function Navbar() {
 
               Tokenomics
               </AnchorLink>
-              <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
-
-             Roadmap
-              </AnchorLink>
+              
             
           </div>
           <div>

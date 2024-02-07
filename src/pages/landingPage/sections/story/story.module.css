@@ -150,6 +150,7 @@ padding-bottom: 2%;
   width: 100%; /* Adjust as needed */
   height: 80vh; /* Adjust the height using vh units */
   object-fit: cover; /* Maintain aspect ratio */
+  opacity: 1;
 }
 
 .card1 {
