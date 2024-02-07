@@ -1,5 +1,5 @@
 import { Link} from "react-router-dom";
-import logo from "../../assets/header/logo.png";
+import logo from "../../assets/header/test.png";
 import styles from "./navbar.module.css";
 import { RegularButton } from "../buttons";
 import hamburger from "../../assets/header/hamburger.svg";
@@ -25,7 +25,7 @@ function Navbar() {
 
             <AnchorLink href='#story' style={{textDecoration: 'none'}}>
 
-              Vision
+              Technology
           </AnchorLink>
             {/* <Link
               target="__blank"
@@ -35,18 +35,22 @@ function Navbar() {
             </Link> */}
              <AnchorLink href='#features' style={{textDecoration: 'none'}}>
 
-              Features
+              Community
               </AnchorLink>
 
               <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
 
               Tokenomics
               </AnchorLink>
+              <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
+
+             Roadmap
+              </AnchorLink>
             
           </div>
           <div>
             <RegularButton
-              title="Connect Wallet"
+              title="STAKING"
               className={styles.navbar_button}
               url="#"
             />
