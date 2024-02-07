@@ -152,7 +152,7 @@
 @media screen and (max-width: 1050px) {
 
   .showcase_container {
-    background-image: url('../../../../assets/pictures/Frame235.png');
+    background-image: url('../../../../assets/icons/6');
     background-position: cover;
     background-repeat: no-repeat;
     background-size: contain;
@@ -266,7 +266,7 @@
 @media screen and (max-height: 450px) {
   .showcase_container {
     min-height: 100vh;
-    background-image: url('../../../../assets/pictures/hero.png');
+    background-image: url('../../../../assets/icons/6.png');
     background-position: cover;
     background-repeat: no-repeat;
   }
