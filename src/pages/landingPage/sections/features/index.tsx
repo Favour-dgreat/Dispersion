@@ -2,10 +2,7 @@ import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
 import thisfeature2Img from '../../../../assets/icons/Group 77.png';
 import thisfeature3Img from '../../../../assets/icons/11.png';
-<<<<<<< Updated upstream
 import { RegularButton } from '../../../../components/buttons';
-=======
->>>>>>> Stashed changes
 
 const ThisYear = () => {
     return (
@@ -24,7 +21,6 @@ const ThisYear = () => {
       <div className={styles.story_inner}>
       <div className={styles.vertical_line}></div>
       <div className={styles.content}>
-<<<<<<< Updated upstream
       Stake your <span className={styles.ti}>$SPADES </span>and enjoy the rewards coming from your NFTs, depending on your NFT rarity and attributes your rewards are calculated on a daily basis based on the total stake and the number of stakers.
       <div></div>
       <RegularButton
@@ -32,9 +28,6 @@ const ThisYear = () => {
               className={styles.showcase_button}
               url="#"
             />
-=======
-      Stake your <span className={styles.te}>$SPADES</span> and enjoy the rewards coming from your NFTs, depending on your NFT rarity and attributes your rewards are calculated on a daily basis based on the total stake and the number of stakers.
->>>>>>> Stashed changes
       </div>
 
       <Image
@@ -45,11 +38,8 @@ const ThisYear = () => {
             className={styles.story_item_image2}
             style={{ flexShrink: 0, height: '100%', width: 'auto', }}
           />
-<<<<<<< Updated upstream
-=======
 
 
->>>>>>> Stashed changes
       </div>
      
     </div>

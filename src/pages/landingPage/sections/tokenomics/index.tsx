@@ -31,6 +31,7 @@ const ThisYear = () => {
         </div>
         <p className={styles.tt}>Total Supply</p>
         <p className={styles.tt}>10,000</p>
+        <p className={styles.marginBottom}> </p>
 
         </div>
 <div className={styles.card}>
@@ -40,9 +41,7 @@ const ThisYear = () => {
         </div>
         <p className={styles.tt}>Sell Tax</p>
         <p className={styles.tt}>0</p>
-
-
-
+        <p className={styles.marginBottom}> </p>
 </div>
 <div className={styles.card}>
         <div className={styles.icon}>
@@ -51,9 +50,7 @@ const ThisYear = () => {
         </div>
         <p className={styles.tt}>Buy Tax</p>
         <p className={styles.tt}>0</p>
-
-
-
+        <p className={styles.marginBottom}> </p>
 </div>
       </div>
      
