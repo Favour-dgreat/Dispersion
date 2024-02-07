@@ -1,8 +1,6 @@
 import LandingLayout from "../../components/layout";
 import Showcase from "./sections/showcase";
 import Tokenomics from "./sections/tokenomics";
-import About from "./sections/about";
-import Community from "./sections/community";
 import Features from './sections/features';
 // import Pitch from "./sections/pitch";
 import Story from "./sections/story";

@@ -1,14 +1,14 @@
 import styles from "./footer.module.css";
-import logo from "../../assets/footer/$DPS.png";
-import { Link } from "react-router-dom";
-import {
-  TelegramIcon,
-  InstagramIcon,
-  LinkednIcon,
-  TwitterIcon,
-} from "./FooterIcons";
+// import logo from "../../assets/footer/$DPS.png";
+// import { Link } from "react-router-dom";
+// import {
+//   TelegramIcon,
+//   InstagramIcon,
+//   LinkednIcon,
+//   TwitterIcon,
+// } from "./FooterIcons";
 import { RegularButton } from "../buttons";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Footer() {
   return (

@@ -1,5 +1,5 @@
-import * as Icon from 'react-bootstrap-icons';
-import { RegularButton } from '../../../../components/buttons';
+// import * as Icon from 'react-bootstrap-icons';
+// import { RegularButton } from '../../../../components/buttons';
 import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';

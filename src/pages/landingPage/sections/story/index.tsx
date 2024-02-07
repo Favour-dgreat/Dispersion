@@ -6,7 +6,7 @@ import thisyearImg2 from '../../../../assets/icons/Group 69.png';
 
 // import aboutImgLarge from '../../../../assets/pictures/logoish.png';
 import Image from '../../../../components/images';
-import { Icon } from '../../../../components';
+// import { Icon } from '../../../../components';
 // import arrowDown from '../../../../assets/icons/thisyear.png';
 // import arrowRight from '../../../../assets/icons/arrowright.png';
 // import { useEffect, useState } from 'react';
