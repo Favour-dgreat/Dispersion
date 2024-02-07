@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   width: 90%;
-  gap: 120px;
+  gap: 80px;
 }
 .navbar_button{
   background: #f3b55b;
@@ -21,19 +21,22 @@
   text-decoration: underline;
 }
 .navbar_ul {
-  margin-left: 25%;
+  margin-left: 20%;
   display: flex;
   float: right;
+}
+.active a{
+  color: var(--white);
 }
 .navbar_ul a {
   font: ABeeZee;
   text-decoration: none;
   font-family: var(--font);
-  color: var(--white);
   font-size: 15px;
+  color: #f3b55b;
   float: right;
   font-weight: 400;
-  margin-right: 60px;
+  margin-right: 30px;
   transition: 0.5s ease;
   text-align: center;
 }
@@ -44,6 +47,9 @@
 .navbar_hamburger {
   display: none;
   width: 30px !important;
+}
+.logo{
+  width: 20%;
 }
 
 /* The side navigation menu */

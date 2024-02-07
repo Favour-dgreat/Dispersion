@@ -1,6 +1,6 @@
 // import AnchorLink from 'react-anchor-link-smooth-scroll';
 // import Icon from '../../../../assets/icons/Vector 4.png';
-import thisyearImg from '../../../../assets/pictures/light.png';
+import thisyearImg from '../../../../assets/icons/6.png';
 import Image from '../../../../components/images';
 
 
@@ -21,7 +21,14 @@ function Showcase() {
 
      <div className={styles.button}>  
      <RegularButton
-              title="BUY NOW"
+              title="Buy on Uniswap"
+              className={styles.showcase_button}
+              url="#"
+            />
+              <div style={{ margin: '0 10px' }}></div> {/* Adjust the margin value as needed */}
+
+            <RegularButton
+              title="Buy on Opensea"
               className={styles.showcase_button}
               url="#"
             />

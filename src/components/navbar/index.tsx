@@ -19,9 +19,9 @@ function Navbar() {
     <>
       <div className={styles.navbar_container}>
         <div className={styles.navbar_inner}>
-          <img src={logo} alt="dispersion swap" />
+          <img src={logo} className={styles.logo} alt="dispersion swap" />
           <div className={styles.navbar_ul}>
-            <Link to="/">Home</Link>
+            <Link to="/" style={{color:'white'}}>Home</Link>
 
             <AnchorLink href='#story' style={{textDecoration: 'none'}}>
 
