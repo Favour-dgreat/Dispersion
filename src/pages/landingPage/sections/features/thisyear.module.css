@@ -15,19 +15,63 @@ color: #fdbf62;
 }
 .content{
   color: white;
+  padding: 20px;
+  max-width: 800px;
+  font-family: ABeeZee;
+  margin-right: 40%;
+font-size: 30px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0.07em;
+margin-top: -10%;
+text-align: left;
+}
+
+.ti{
+  color: #FFBF62;
 }
 .vertical_line {
   width: 2px; /* Adjust the width of the line as needed */
   height: 250px; /* Adjust the height of the line as needed */
   background-color:  #FFBF62;
   position: relative;
+  margin-left: -20px;
+  margin-top: -10%;
+
+}
+.showcase_button {
+  position: relative;
+  margin-top: 20px;
+  height: 40px;
+  padding: 0px 29px 0px 29px;
+  align-items: center;
+  text-decoration: none;
+  font-family:  Abhaya Libre ExtraBold;
+  font-weight: 800px;
+  font-size: 19px;
+  list-style: none;
+  border-radius: 10px;
+  background: #FFBF62;
+}
+
+.showcase_button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(white, white);
+  mask-image: linear-gradient(white, white);
 }
 
 .vertical_line::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 10%;
   transform: translateX(-50%);
   height: 100%;
   width: 2px;
@@ -76,13 +120,13 @@ color: #fdbf62;
 }
 .story_inner{
   height: 100vh;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   display: flex; /* Use flexbox layout */
   justify-content: space-around; /* Distribute space around items */
   align-items: center; /* Center items vertically */
-  padding: 20px; /* Add padding for spacing */
-  gap: 70px;
+  padding: 10px; /* Add padding for spacing */
+  margin-top: -10%;
 
 }
 .bullet_points {
@@ -179,8 +223,8 @@ color: #fdbf62;
     justify-content: center;
     text-align: center;
     max-width: 55%;
-    margin-left: -20%;
-    margin-top: -10%;
+    margin-left: 50%;
+    margin-top: -15%;
   }
   
   .text{

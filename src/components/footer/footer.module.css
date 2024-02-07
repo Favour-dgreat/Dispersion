@@ -2,10 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--black);
-  padding: 70px 0px;
+  background-color: #FFBF62;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column; /* or row, depending on your design */
+  align-items: center; 
 }
+/* styles.module.css */
 
+
+
+
+
+.join{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+}
 .footer_inner {
   width: 90%;
   display: flex;
@@ -44,13 +57,21 @@
   font-weight: 400;
   margin: 30px 0px;
 }
-.footer_button{
-  background: -webkit-linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
-  color: white;
-  padding-bottom: 2%;
+.footer_buttons{
+  display: flex;
+  gap: 10px;
 }
 .footer_tt1{
   cursor: pointer;
+}
+.showcase_button{
+  background-color: #000;
+  color: #FFBF62;
+  padding: 30%;
+  width: 130px;
+  height: 40px;
+  border-radius: 120px;
+
 }
 
 .footer_tt1:hover{

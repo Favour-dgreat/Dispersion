@@ -17,8 +17,7 @@
   font-size: 20px;
 }
 .navbar_button:hover{
-  color: #512555;
-  text-decoration: underline;
+  color: #fff;
 }
 .navbar_ul {
   margin-left: 20%;
@@ -41,7 +40,7 @@
   text-align: center;
 }
 .navbar_ul a:hover {
-  color: var(--lightblue);
+  color: var(--white);
 }
 
 .navbar_hamburger {

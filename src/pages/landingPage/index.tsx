@@ -22,8 +22,7 @@ function LandingPage() {
        <Story />
       <Tokenomics />
       <Features/>
-      <About/>
-      <Community/>
+      
 
       {/*<Pitch />
       <Swags />
