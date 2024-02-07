@@ -1,7 +1,7 @@
 import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';
-import thisyearImg1 from '../../../../assets/icons/roadmap.png';
+import thisyearImg1 from '../../../../assets/icons/token.png';
 // import thisyearImg2 from '../../../../assets/icons/Ellipse.png';
 // import thisyearImg3 from '../../../../assets/icons/Rectangle28.png';
 // import thisyearImg4 from '../../../../assets/icons/Rectangle29.png';
@@ -30,6 +30,8 @@ const ThisYear = () => {
         <Icon.ArrowUpSquareFill color="#000" size={56} className={styles.gi}/>
         </div>
         <p className={styles.tt}>Total Supply</p>
+        <p className={styles.tt}>10,000</p>
+
         </div>
 <div className={styles.card}>
         <div className={styles.icon}>
@@ -37,6 +39,8 @@ const ThisYear = () => {
         <Icon.CartCheckFill color="#000" size={56} className={styles.gi}/>
         </div>
         <p className={styles.tt}>Sell Tax</p>
+        <p className={styles.tt}>0</p>
+
 
 
 </div>
@@ -46,6 +50,8 @@ const ThisYear = () => {
         <Icon.CartPlusFill color="#000" size={56} className={styles.gi}/>
         </div>
         <p className={styles.tt}>Buy Tax</p>
+        <p className={styles.tt}>0</p>
+
 
 
 </div>

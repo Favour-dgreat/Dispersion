@@ -33,46 +33,42 @@ function Story() {
   return (
     <>
       {/* <div id="story" className={styles.story_container}> */}
-      <Image
-        data-aos="fade-up"
-        data-aos-duration="2000"
-        data-aos-anchor-placement="center-bottom"
-        src={thisyearImg1}
-        className={styles.story_item_image3}
-        style={{ flexShrink: 0, height: '100%', width: 'auto', }}
-      />
+      
   <div id="story" className={styles.story_container}>
  
   <div className={styles.story_inner}>
-  <div className={styles.card}>
-    
-    <p className={styles.tt}>Spades Card</p>
-    <p className={styles.t}>Each of your $spades possesses unique NFT attributes randomly assigned at the time of purchase. These attributes represent five different spades cards: Spade A, Spade K, Spade Q, Spade J, and Spade 10. The acquisition probability is determined by the card's rank, Spade A being the rarest and hardest to obtain.</p>
+  <div className={styles.cardContainer}>
+    <div className={styles.card}>
+      <p className={styles.tt}>Spades Card</p>
+      <p className={styles.t}>Each of your $spades possesses unique NFT attributes randomly assigned at the time of purchase. These attributes represent five different spades cards: Spade A, Spade K, Spade Q, Spade J, and Spade 10. The acquisition probability is determined by the card's rank, Spade A being the rarest and hardest to obtain.</p>
     </div>
-    
+
     <div className={styles.contain}>
-  <div className={styles.imageContain}>
-    <Image
-      data-aos="fade-up"
-      data-aos-duration="2000"
-      data-aos-anchor-placement="center-bottom"
-      src={thisyearImg1}
-      className={styles.story_item_image2}
-      style={{ flexShrink: 0, width: 'auto', height: '100%' }}
-    />
+      <div className={styles.imageContain}>
+        <Image
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="center-bottom"
+          src={thisyearImg1}
+          className={styles.story_item_image2}
+          style={{ flexShrink: 0, width: '100%', height: '100%' }}
+        />
+      </div>
+    </div>
+
+    <div className={styles.card}>
+      <p className={styles.tt}>Spades Defi</p>
+      <p className={styles.t}>Spades Finance introduces a groundbreaking DeFi model. Users have the option to burn their cards to start mining tokens. Mining returns vary based on the rarity of the card. When you choose to burn your cards and start mining, your $spades are also burned, contributing to the continuous deflation of the $Spades total supply.</p>
+    </div>
   </div>
-  <div className={styles.card}>
+
+  
+</div>
+<div className={styles.card2}>
     <p className={styles.tt}>Spades Protocol</p>
     <p className={styles.t}>Diverging from conventional Erc20 or Erc721 protocols, the Spades protocol introduces novel technology, seamlessly integrating Tokens and NFTs.</p>
   </div>
-</div>
 
-<div className={styles.card}>
-<p className={styles.tt}>Spades Defi</p>
-    <p className={styles.t}>Spades Finance introduces a groundbreaking DeFi model. Users have the option to burn their cards to start mining tokens. Mining returns vary based on the rarity of the card. When you choose to burn your cards and start mining, your $spades are also burned, contributing to the continuous deflation of the $Spades total supply.</p>
-   
-</div>
-  </div>
  
 </div>
 
