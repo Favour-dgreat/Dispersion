@@ -2,6 +2,7 @@ import styles from './story.module.css';
 // import storyImg from '../../../../assets/pictures/logoish.png';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';
 import thisyearImg1 from '../../../../assets/icons/8.png';
+import thisyearImg2 from '../../../../assets/icons/Group 69.png';
 
 // import aboutImgLarge from '../../../../assets/pictures/logoish.png';
 import Image from '../../../../components/images';
@@ -33,7 +34,14 @@ function Story() {
   return (
     <>
       {/* <div id="story" className={styles.story_container}> */}
-      
+      <Image
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="center-bottom"
+          src={thisyearImg2}
+          className={styles.story_item_image3}
+          style={{ flexShrink: 0, width: '100%', height: '100%' }}
+        />
   <div id="story" className={styles.story_container}>
  
   <div className={styles.story_inner}>
