@@ -21,7 +21,7 @@ const ThisYear = () => {
       <div className={styles.story_inner}>
       <div className={styles.vertical_line}></div>
       <div className={styles.content}>
-      Stake your <span className={styles.ti}>$SPADES </span>and enjoy the rewards coming from your NFTs, depending on your NFT rarity and attributes your rewards are calculated on a daily basis based on the total stake and the number of stakers.
+      Stake and burn your <span className={styles.ti}>$SPADES, </span>start enjoying daily token rewards instantly! Based on your card rarity, you can have up to 4800% APR!
       <div></div>
       <RegularButton
               title="STAKING"

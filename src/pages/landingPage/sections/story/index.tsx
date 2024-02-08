@@ -44,7 +44,7 @@ function Story() {
   <div className={styles.cardContainer1}>
     <div className={styles.card}>
       <p className={styles.tt}>Spades Card</p>
-      <p className={styles.t}>Each of your $spades possesses unique NFT card attributes randomly assigned at the time of purchase. <br></br> <br/>Higher rarity cards having greater value, you can choose to stake and burn it for long-term rewards or sell rare cards on the NFT market to immediately gain high profits!</p>
+      <p className={styles.t}>Each of your $spades possesses unique NFT card attributes randomly assigned at the time of purchase. <br></br> Higher rarity cards having greater value, you can choose to stake and burn it for long-term rewards or sell rare cards on the NFT market to immediately gain high profits!</p>
     </div>
   </div>
 
