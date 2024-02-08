@@ -48,7 +48,7 @@ function Story() {
     </div>
   </div>
 
-  <div className={styles.cardContainer2}>
+  <div className={styles.cardContainer2} style={{ paddingTop: '20vh'}}>
   <Image
           data-aos="fade-up"
           data-aos-duration="2000"
@@ -57,7 +57,7 @@ function Story() {
           className={styles.imageOnCard}
           style={{ flexShrink: 0, width: '100%', height: '100%' }}
         />
-    <div className={styles.card1} >
+    <div className={styles.card1} style={{ marginTop: '50vh'  }}>
       <p className={styles.tt}>Spades Protocol</p>
       <p className={styles.t}>Innovative ERC404 economic model encourages more and more holders to burn their tokens, helping to continuously decrease the total supply and drive the token price upwards. 
 

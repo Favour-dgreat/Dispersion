@@ -19,7 +19,7 @@
   color: #fff;
 }
 .navbar_ul {
-  margin-left: 20%;
+  margin-left: 35%;
   display: flex;
   float: right;
 }
@@ -34,7 +34,7 @@
   color: #f3b55b;
   float: right;
   font-weight: 400;
-  margin-right: 30px;
+  margin-right: 60px;
   transition: 0.5s ease;
   text-align: center;
 }
@@ -71,7 +71,7 @@
 .sidenav_inner {
   display: flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 39px;
   padding-top: 30px;
   padding-left: 40px;
 }
@@ -97,7 +97,7 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  /* margin: 25px 0px; */
+  margin: 25px 0px;
   color: black;
 }
 /* When you mouse over the navigation links, change their color */
@@ -123,7 +123,7 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1050px) {
   .navbar_button {
     display: none;
   }
