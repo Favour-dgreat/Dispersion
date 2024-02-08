@@ -1,7 +1,7 @@
 import styles from './story.module.css';
 // import storyImg from '../../../../assets/pictures/logoish.png';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';
-import thisyearImg1 from '../../../../assets/icons/group70.jpeg';
+import thisyearImg1 from '../../../../assets/icons/Group 70.png';
 import thisyearImg2 from '../../../../assets/icons/Group 69.png';
 
 // import aboutImgLarge from '../../../../assets/pictures/logoish.png';

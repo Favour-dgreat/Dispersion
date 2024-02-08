@@ -399,6 +399,23 @@
     top: -100px;
   }
 }
+.carousel{
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+.slick-slide {
+  display: none; /* Hide all slides by default */
+}
+.slider{
+  width: 100%;
+}
+
+.slick-slide.slick-active {
+  display: block; /* Display the active slide */
+}
+
 @media screen and (max-width: 450px) {
 .story_item_image3{
   max-width: 80%;
