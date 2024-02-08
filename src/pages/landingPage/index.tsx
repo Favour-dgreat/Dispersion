@@ -18,9 +18,9 @@ function LandingPage() {
       <Showcase />
        <ThisYear />
        <Story />
-      <Tokenomics />
       <Features/>
-      
+      <Tokenomics />
+
 
       {/*<Pitch />
       <Swags />

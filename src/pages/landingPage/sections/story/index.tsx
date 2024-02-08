@@ -44,7 +44,7 @@ function Story() {
   <div className={styles.cardContainer1}>
     <div className={styles.card}>
       <p className={styles.tt}>Spades Card</p>
-      <p className={styles.t}>Each of your $spades possesses unique NFT attributes randomly assigned at the time of purchase. These attributes represent five different spades cards: Spade A, Spade K, Spade Q, Spade J, and Spade 10. The acquisition probability is determined by the card's rank, Spade A being the rarest and hardest to obtain.</p>
+      <p className={styles.t}>Each of your $spades possesses unique NFT card attributes randomly assigned at the time of purchase. <br></br> <br/>Higher rarity cards having greater value, you can choose to stake and burn it for long-term rewards or sell rare cards on the NFT market to immediately gain high profits!</p>
     </div>
   </div>
 
@@ -59,7 +59,9 @@ function Story() {
         />
     <div className={styles.card1} style={{ marginTop: '50vh'  }}>
       <p className={styles.tt}>Spades Protocol</p>
-      <p className={styles.t}>Diverging from conventional Erc20 or Erc721 protocols, the Spades protocol introduces novel technology, seamlessly integrating Tokens and NFTs.</p>
+      <p className={styles.t}>Innovative ERC404 economic model encourages more and more holders to burn their tokens, helping to continuously decrease the total supply and drive the token price upwards. 
+
+As tokens are burned, NFTs are also burned, making them increasingly rare and valuable. The price of NFT will further drive the price of token to continue rising.</p>
     </div>
   </div>
 

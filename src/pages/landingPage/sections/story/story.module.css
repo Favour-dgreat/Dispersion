@@ -171,7 +171,7 @@ padding-bottom: 2%;
 .card1 {
   display: flex;
   width: 300px; /* Set card width */
-  height: 120px; /* Set card height */
+  height: 200px; /* Set card height */
   background-color: #0000; /* Set card background color */
   border-radius: 10px; 
   border: 2px solid #efb35b;/* Set border radius for rounded corners */
