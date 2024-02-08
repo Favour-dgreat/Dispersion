@@ -48,6 +48,25 @@ color: #fdbf62;
 .marginBottom {
   margin-bottom: 10px; /* Adjust the margin as needed */
 }
+.carousel{
+  margin: 0 auto;
+  width: 80%;
+  margin-top: -10%;
+  padding-bottom: 10%;
+}
+.slick-slide {
+  display: none; /* Hide all slides by default */
+}
+.slider{
+  width: 100%;
+}
+
+.slick-slide.slick-active {
+  display: block; /* Display the active slide */
+}
+
+
+
 /* Define the pop-out animation */
 @keyframes popOut {
   0% {
@@ -87,7 +106,7 @@ color: #fdbf62;
   display: flex; /* Use flexbox layout */
   justify-content: space-around; /* Distribute space around items */
   align-items: center; /* Center items vertically */
-  padding: 20px; /* Add padding for spacing */
+  padding: 10px; /* Add padding for spacing */
   gap: 70px;
 
 }

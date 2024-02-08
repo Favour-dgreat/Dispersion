@@ -20,12 +20,12 @@ function Footer() {
     <RegularButton
       title="Telegram"
       className={styles.showcase_button}
-      url="#"
+      url="https://t.me/SpadesFinance"
     />
     <RegularButton
       title="Twitter"
       className={styles.showcase_button}
-      url="#"
+      url="https://twitter.com/spadesfin"
     />
     <RegularButton
       title="Chart"
