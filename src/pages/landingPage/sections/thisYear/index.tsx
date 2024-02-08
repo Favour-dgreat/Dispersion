@@ -42,7 +42,7 @@ const ThisYear = () => {
         className={styles.story_item_image2}
         style={{ flexShrink: 0, width: 'auto', height: '100%' }}
       />     
-      <p className={styles.text_p}>Twitter</p>
+      <p className={styles.text_p1}>Twitter</p>
 </a>
     </div>
     
@@ -54,10 +54,10 @@ const ThisYear = () => {
         data-aos-duration="2000"
         data-aos-anchor-placement="center-bottom"
         src={thisyearImg3}
-        className={styles.story_item_image2}
+        className={styles.story_item_image4}
         style={{ flexShrink: 0, width: 'auto', height: '100%' }}
       />         
-      <p className={styles.text_p}>Chart</p>
+      <p className={styles.text_p2}>Chart</p>
     </a>
     </div>
     

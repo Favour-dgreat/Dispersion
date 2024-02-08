@@ -74,25 +74,29 @@ function Navbar() {
           >
             &times;
           </a>
-          <Link to="/">Home</Link>
 
 <AnchorLink href='#story' style={{textDecoration: 'none'}}>
 
-  Vision
+  Technology
 </AnchorLink>
-
-
+{/* <Link
+  target="__blank"
+  to="#"
+>
+  Vision
+</Link> */}
  <AnchorLink href='#features' style={{textDecoration: 'none'}}>
 
-  Features
+  Community
   </AnchorLink>
 
   <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
 
   Tokenomics
   </AnchorLink>
+  
           <RegularButton
-            title="Connect Wallet"
+            title="STAKING"
             className={styles.sidebar_button}
             url="#"
           />

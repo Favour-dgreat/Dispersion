@@ -10,7 +10,6 @@
 
 
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 1500px) {
 
   .showcase_container {
@@ -152,26 +151,38 @@
   .showcase_container{
     text-align: center;
     justify-content: center;
-    display: flex;
-    flex-direction: column; /* Align items vertically */
-  }
-  .thisyear_image{
-    top: 45%;
-    width: 50%;
+    flex-direction: column;
     margin: 0 auto;
+    width: 100%;
+     /* Align items vertically */
   }
+  
   .showcase_inner{
-    max-width: 550px;
-    padding-top: 30%;
+    padding: 5%;
+    padding-top: 40%;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
   }
-  .showcase_inner2{
-   
-  }
-  
+  .showcase_inner2 {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+}
+
+.image_container {
+    max-width: 1200px;
+    margin-right: 120%; /* Set maximum width for the image container */
+}
+
+.thisyear_image {
+    width: 48vh; /* Set maximum width for the image */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Prevent any default margins or paddings */
+    margin: auto; /* Center the image horizontally within its container */
+    margin-top: 90%;
+}
+
   .showcase_span{
     font-family: Abhaya Libre ExtraBold;
 font-size: 50px;
@@ -186,26 +197,26 @@ justify-content: center;
   font-family: ABeeZee;
 font-size: 20px;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.07em;
 text-align: center;
   margin-top: 10%;
   
  }
   
   
-
-  
   .showcase_button {
     position: relative;
     margin-top: 20px;
     height: 40px;
-    width: 180px;
+    width: 170px;
+    margin-right: 10px;
+    padding-left: 12px;
     align-items: center;
     text-decoration: none;
     list-style: none;
     background: #fdbf62;
     font-size: 18px;
+    font-family: Abhaya Libre ExtraBold;
+
   }
   
   .showcase_button::before {
@@ -215,14 +226,12 @@ text-align: center;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
     z-index: -1;
     -webkit-mask-image: linear-gradient(white, white);
     mask-image: linear-gradient(white, white);
   }
   
   .showcase_button:hover{
-    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;

@@ -59,7 +59,7 @@
   top: 0; /* Stay at the top */
   bottom: 0;
   left: 0;
-  background-color: #FEF6DF; /* Black*/
+  background-color: #303030;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 50px; /* Place content 60px from the top */
   transition: 0.5s;
@@ -98,12 +98,9 @@
   font-size: 16px;
   font-weight: 500;
   margin: 25px 0px;
-  color: black;
+  color: #FFBF62;
 }
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: var(--darkblue);
-}
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
@@ -115,11 +112,14 @@
 }
 
 .sidebar_button {
-  padding: 10px 20px !important;
-  font-size: 16px !important;
-  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
-  width: 180px;
-  color: white;
+  width: 144px;
+  height: 34px;
+  top: 12px;
+  left: 1311px;
+  border-radius: 3px;
+  background-color: #FFBF62;
+  color:#000;
+
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -129,6 +129,7 @@
   }
   .navbar_hamburger {
     display: block;
+    margin: 30px;
   }
   .navbar_ul a {
     display: none;
@@ -167,7 +168,7 @@
     top: 0; /* Stay at the top */
     bottom: 0;
     left: 0;
-    background-color: #FEF6DF; /* Black*/
+    background-color: #303030;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 50px; /* Place content 60px from the top */
     transition: 0.5s;
@@ -181,7 +182,7 @@
     flex-direction: column;
     gap: 29px;
     padding-top: 30px;
-    padding-left: 40px;
+    padding-left: 20px;
   }
   
   .sidenav_show {
@@ -223,7 +224,7 @@
   }
   
   .sidebar_button {
-    padding: 10px 20px !important;
+    padding: 20px 20px !important;
     font-size: 16px !important;
     width: 180px;
     color: white;

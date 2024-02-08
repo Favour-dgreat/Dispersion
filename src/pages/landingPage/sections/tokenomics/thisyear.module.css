@@ -410,4 +410,10 @@ color: #fdbf62;
   .story_icon_2 {
     top: -100px;
   }
+
+  @media screen and (max-width: 1050px) {
+    .story_inner{
+      display: none;
+    }
+  }
 }

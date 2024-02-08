@@ -36,15 +36,17 @@ function Showcase() {
      
       </div>
       <div className={styles.showcase_inner2}>
-      <Image
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          data-aos-anchor-placement="center-bottom"
-           src={thisyearImg}
-           className={styles.thisyear_image}
-          />
+    <div className={styles.image_container}>
+        <Image
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-anchor-placement="center-bottom"
+            src={thisyearImg}
+            className={styles.thisyear_image}
+        />
+    </div>
+</div>
 
-      </div>
      
       
     </div>
