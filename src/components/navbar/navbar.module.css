@@ -24,7 +24,7 @@
   float: right;
 }
 .active a{
-  color: var(--white);
+  color: #f3b55b;
 }
 .navbar_ul a {
   font: ABeeZee;

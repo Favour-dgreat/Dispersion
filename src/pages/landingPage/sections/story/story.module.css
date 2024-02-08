@@ -61,6 +61,9 @@
     display: flex;
   
   }
+  .cardContainer1{
+    margin-left: 5%;
+  }
     
   .icon2{
     width: 300px; /* Set card width */
@@ -91,7 +94,6 @@
     width: 100%; /* Adjust as needed */
     height: 80vh; /* Adjust the height using vh units */
     object-fit: cover; /* Maintain aspect ratio */
-    opacity: 0.5;
   }
   
   .card1 {
@@ -154,7 +156,7 @@
   .cardContainer2,
   .cardContainer3 {
     flex: 1;
-    padding-right: 20px; /* Adjust spacing between cards */
+    padding-right: 10px; /* Adjust spacing between cards */
     width: 5%;
   }
   .cardContainer1 .card,

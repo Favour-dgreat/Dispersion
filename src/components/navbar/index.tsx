@@ -21,7 +21,7 @@ function Navbar() {
         <div className={styles.navbar_inner}>
           <img src={logo} className={styles.logo} alt="dispersion swap" />
           <div className={styles.navbar_ul}>
-            <Link to="/" style={{color:'white'}}>Home</Link>
+            <Link to="/">Home</Link>
 
             <AnchorLink href='#story' style={{textDecoration: 'none'}}>
 

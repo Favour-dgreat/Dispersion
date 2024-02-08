@@ -73,25 +73,7 @@ const ThisYear = () => {
             <p className={styles.marginBottom}> </p>
           </div>
         </div>
-        <div className={styles.carousel}>
-          <Slider {...settings}>
-            <div>
-              <img src={thisyearImg2} alt="Image 1" className={styles.slider} />
-            </div>
-            <div>
-              <img src={thisyearImg3} alt="Image 2" className={styles.slider} />
-            </div>
-            <div>
-              <img src={thisyearImg4} alt="Image 3" className={styles.slider} />
-            </div>
-            <div>
-              <img src={thisyearImg5} alt="Image 4" className={styles.slider} />
-            </div>
-            <div>
-              <img src={thisyearImg6} alt="Image 5" className={styles.slider} />
-            </div>
-          </Slider>
-        </div>
+      
       </div>
     </>
   );
