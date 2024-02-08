@@ -20,7 +20,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 
 const ThisYear = () => {
-  const [isPaused, setIsPaused] = useState(false);
+  const [,setIsPaused] = useState(false);
 
   const settings = {
     dots: false,
