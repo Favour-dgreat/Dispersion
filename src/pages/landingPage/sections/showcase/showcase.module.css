@@ -1,8 +1,6 @@
 .showcase_container {
   background-color: #000;
-  background-position: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
+  max-width: 100%;
   display: flex;
 }
 
@@ -97,21 +95,7 @@
     line-height: 30px;
   }
   
-  .showcase_button {
-    position: relative;
-    margin-top: 40px;
-    height: 40px;
-    padding: 0px 29px 0px 29px;
-    align-items: center;
-    text-decoration: none;
-    font-family:  Abhaya Libre ExtraBold;
-    font-weight: 800px;
-    font-size: 19px;
-    list-style: none;
-    border-radius: 10px;
-    background: rgb(214,160,78);
-    background: linear-gradient(180deg, rgba(255,191,93,1) 19%, rgba(38,46,48,1) 100%);  font-size: 18px;
-  }
+  
   
   .showcase_button::before {
     content: '';
@@ -143,6 +127,21 @@
     background: rgb(214,160,78);
     background: linear-gradient(180deg, rgba(255,191,93,1) 19%, rgba(38,46,48,1) 100%);  font-size: 18px;
   }
+  .showcase_button{
+    position: relative;
+    margin-top: 20px;
+    height: 40px;
+    padding: 0px 29px 0px 29px;
+    align-items: center;
+    text-decoration: none;
+    font-family:  Abhaya Libre ExtraBold;
+    font-weight: 800px;
+    font-size: 19px;
+    list-style: none;
+    border-radius: 10px;
+    background: rgb(214,160,78);
+    background: linear-gradient(180deg, rgba(255,191,93,1) 19%, rgba(38,46,48,1) 100%);  font-size: 18px;
+  }
   
 }
 
@@ -152,8 +151,8 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
     width: 100%;
+    overflow-x: hidden;
      /* Align items vertically */
   }
   
@@ -172,7 +171,7 @@
 
 .image_container {
     max-width: 1200px;
-    margin-right: 120%; /* Set maximum width for the image container */
+    margin-right: 100%; /* Set maximum width for the image container */
 }
 
 .thisyear_image {
@@ -207,14 +206,12 @@ text-align: center;
     position: relative;
     margin-top: 20px;
     height: 40px;
-    width: 170px;
-    margin-right: 10px;
-    padding-left: 12px;
+    width: 150px;
     align-items: center;
     text-decoration: none;
     list-style: none;
     background: #fdbf62;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Abhaya Libre ExtraBold;
 
   }

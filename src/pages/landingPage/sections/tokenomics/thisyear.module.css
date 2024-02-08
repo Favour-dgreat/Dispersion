@@ -13,6 +13,7 @@ text-align: center;
 color: #fdbf62;
 
 }
+@media (max-width: 1500px) {
 
 .card {
   display: flex;
@@ -157,7 +158,6 @@ color: #fdbf62;
 
 }
 
-@media (min-width: 1025px) {
   .story_details{
     margin-top: 5%;
     text-align: left;
@@ -286,9 +286,7 @@ color: #fdbf62;
   .story_icon_2 {
     top: -100px;
   }
-}
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-width: 1050px) {
+
   .content1{
     text-align: center;
   }
@@ -361,9 +359,7 @@ color: #fdbf62;
     text-align: left;
   }
   
-  .story_item_image3{
-    display: none;
-  }
+  
   .story_item_texts {
     margin-top: 5%;
     text-align: left;
@@ -410,10 +406,30 @@ color: #fdbf62;
   .story_icon_2 {
     top: -100px;
   }
-
-  @media screen and (max-width: 1050px) {
-    .story_inner{
-      display: none;
-    }
+}
+@media (max-width: 450px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    width: 200px; /* Set card width */
+    height: 300px; /* Set card height */
+    border-radius: 10px; /* Set border radius for rounded corners */
+    padding-bottom: 20px;
+  }
+  .story_inner{
+    padding-top: 60%;
+    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  .story_item_image3{
+    width: 40%;
+    max-width: 80%;
+  }
+  .carousel{
+    padding-top: 30%;
+    padding-bottom: 30%;
   }
 }

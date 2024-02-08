@@ -399,11 +399,11 @@
     top: -100px;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 450px) {
 .story_item_image3{
-  margin-top: 50%;
   max-width: 80%;
   margin-left: 10%;
+  margin-top: 40%;
 }
 .vertical_line{
   display: none;

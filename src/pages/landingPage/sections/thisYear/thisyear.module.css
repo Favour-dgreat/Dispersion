@@ -80,7 +80,7 @@ a {
   justify-content: space-around; /* Distribute space around items */
   align-items: center; /* Center items vertically */
   padding: 20px; /* Add padding for spacing */
-  gap: 70px;
+  gap: 20px;
 
 }
 

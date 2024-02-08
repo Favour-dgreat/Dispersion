@@ -89,9 +89,7 @@ text-align: center;
   .footer_inner_left {
     height: 100% !important;
   }
-  .footer_inner_left img {
-    /* margin-bottom: 40px; */
-  }
+  
   .footer_inner p {
     padding-left: 0px;
   }
